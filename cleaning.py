@@ -17,6 +17,12 @@ def process_bedroom_sum(expr) -> int:
 
 
 def process_bedroom_half(expr) -> int:
+    """
+    Cleans the bedroom column by summing half the additional value
+    so 4+1 becomes 4.5, 4+2 becomes 5. This is to account for the nuance that 
+    the additional room is reported separately because it may not hold the same value as
+    a traditional bedroom (it could be a small bedroom, a servant quarter, an additional study or living room, etc)
+    """
     if (type(expr) == str):
         if (len(expr) == 1):
             return int(expr)
