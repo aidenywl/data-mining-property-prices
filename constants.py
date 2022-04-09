@@ -2,7 +2,7 @@
 TO_IGNORE = [
     "subszone",
     "street", # we simply go by lat and long
-    "listing_id",
+    "listing_id", # don't think it affects the price
     "name",
     "model", # we drop this because type is more than enough.
     "market_segment", # Only one value, ocr.
