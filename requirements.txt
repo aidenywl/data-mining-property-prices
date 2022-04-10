@@ -13,6 +13,7 @@ brotlipy==0.7.0
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.12
+colorama==0.4.4
 cryptography==36.0.2
 cycler==0.11.0
 debugpy==1.5.1
