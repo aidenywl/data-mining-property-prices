@@ -33,13 +33,15 @@ All the code is under the `src` folder. We have two types of code in this projec
 
 `Notebooks`:
 
-We organize our notebooks around the tasks we complete in our report. Notebooks are in `/src/`. 
+We organize our notebooks around the tasks we complete in our report. Notebooks are in `/src/`. Each of our notebooks contain all the models code in one file. 
 
-* `approach1.ipnyb`: contains the code for approach 1
-* `approach2a.ipnyb`: contains the code for approach 2A
-* `approach2b.ipnyb`: contains the code for approach 2B
-* `approach3a.ipnyb`: contains the code for approach 3a
-* `eda.ipnyb`: contains the code for our exploratory data anlysis and for generating the charts used in our report
+* `Approach 1.ipnyb`: contains the code for approach 1
+* `Approach 2A.ipnyb`: contains the code for approach 2A
+* `Approach 2B.ipnyb`: contains the code for approach 2B
+* `Approach 3A.ipnyb`: contains the code for approach 3A
+* `Approach 3B.ipnyb`: contains the code for approach 3A
+* `EDA.ipnyb`: contains the code for our exploratory data anlysis and for generating the charts used in our report
+* `feature_analysis`.ipnyb: contains the code for feature analysis
 
 `Library Code`:
 
@@ -57,4 +59,8 @@ All the data is found in `/data/`.
 * `test.csv` and `train.csv` are part of the primary dataset and are respectively the test and training sets. 
 * `/data/additional_data` contains the data for consumer price index.
 * `/data/auxiliary-data` contains the data for distances to prominent places in Singapore
+
+`Predictions`:
+
+All predictions are by default stored in `/predictions/` for clear distinctions between types of files.
 
