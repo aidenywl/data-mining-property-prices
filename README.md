@@ -7,7 +7,7 @@ Our team is named Data Nerds and our members are Aiden Low, Raivat Shah and Resh
 ## System Requirements
 
 * `Python` v3.9 and above 
-* 
+*  If you're planning to run this on a remote machine, try to optimise/pick machines with a better CPU as against memory (RAM) or GPU as our evidence suggests RAM and GPU aren't as crucial to this code as much as the CPU. We trained using a CPU-optimised Droplet from Digital Ocean. 
 
 ## Setup 
 
